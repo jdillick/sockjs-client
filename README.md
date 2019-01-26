@@ -1,3 +1,8 @@
+# Node.js as client
+This repo is a hack. Don't use it. I just needed this for a demo.
+There is apparently no way to provide a Spring boot SESSION cookie when connecting to a STOMP endpoint. (i.e. no way I could tell from the source to provide any sort of headers to the transport when connecting).
+
+My hack was to check for the existence of a singleton, where I keep around the cookie session.
 
 # SockJS-client
 
@@ -8,7 +13,7 @@
 
 Tidelift gives software development teams a single source for purchasing and maintaining their software, with professional grade assurances from the experts who know it best, while seamlessly integrating with existing tools.
 
-[Get supported sockjs-client with the Tidelift Subscription](https://tidelift.com/subscription/pkg/npm-sockjs-client?utm_source=npm-sockjs-client&utm_medium=referral&utm_campaign=readme) 
+[Get supported sockjs-client with the Tidelift Subscription](https://tidelift.com/subscription/pkg/npm-sockjs-client?utm_source=npm-sockjs-client&utm_medium=referral&utm_campaign=readme)
 
 # Summary
 

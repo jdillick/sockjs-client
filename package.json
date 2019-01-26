@@ -1,6 +1,6 @@
 {
-  "name": "sockjs-client",
-  "description": "SockJS-client is a browser JavaScript library that provides a WebSocket-like object.",
+  "name": "sockjs-client-node-xhr-polling",
+  "description": "Hack for xhr-polling. SockJS-client is a browser JavaScript library that provides a WebSocket-like object.",
   "version": "1.3.0",
   "author": "Bryce Kahle",
   "jsdelivr": "dist/sockjs.min.js",
